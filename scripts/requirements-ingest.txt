@@ -1,0 +1,5 @@
+# Dependencies for the Gmail ingest worker (scripts/gmail_ingest.py).
+# These are NOT needed by the Vercel serverless function.
+google-api-python-client>=2.0
+google-auth>=2.0
+google-auth-oauthlib>=1.0

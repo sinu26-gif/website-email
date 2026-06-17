@@ -1,0 +1,6 @@
+# Himova drafting engine (api/draft.py) uses only the Python standard library.
+# No external dependencies are required. This file tells Vercel to build the
+# /api/*.py files with the Python runtime.
+
+# Optional: only used when USE_BEDROCK=1 (Amazon Bedrock drafting).
+boto3>=1.34
